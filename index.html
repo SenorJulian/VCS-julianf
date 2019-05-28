@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
 
     <title>Git/GitHub Project</title>
 </head>
+
 <body>
     <h1 class="myComfortaa">Git/GitHub Project - Julian Fry - May 2019</h1>
     <hr>
@@ -27,76 +29,135 @@
         and its purpose is to make collaboration on projects easier, and to provide a backup for the code.
     </h3>
 
-    <h1>Steps for setting up Git (Linux)</h1>
-        <ul>
-            <li>
+    <table>
+        <th colspan="2">Steps for setting up Git (Linux)</th>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ sudo apt update
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ sudo apt install git</pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git --version
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git config --global user.name &quot;SenorJulian&quot;
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git config --global user.email &quot;fakeemail@email.com&quot;
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git help config
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git init
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git status
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ touch .gitignore
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ gedit .gitignore
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git add -A
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git reset
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git commit -m &quot;Initial Commit&quot;
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git log
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS/GitHubClones</b></font>$ git clone https://github.com/CHS-McClendon/VCS_mrm.git .
                 </pre>
-            </li>
-            <li>
+                <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS/GitHubClones/alexz</b></font>$ git clone https://github.com/alexzanderallen01/VCS_ale.git .
+                </pre>
+            </td>
+            <td>
+                <img src="images/cloness.png" alt="Clone Screenshot 1">
+                <img src="images/cloness2.png" alt="Clone Screenshot 2">
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS/GitHubClones/alexz</b></font>$ git remote -v
                 </pre>
-            </li>
-            <li>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git diff
                 </pre>
-            </li>
-        </ul>
-        <h5>Continue on Thrusday 23 May</h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git remote add origin https://github.com/SenorJulian/VCS-julianf.git
+                </pre>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git pull origin master --allow-unrelated-histories
+                </pre>
+                <p>Always do this before you push!</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/julianf/projects/VCS</b></font>$ git push origin master
+                </pre>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
